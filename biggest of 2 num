@@ -1,0 +1,21 @@
+import java.util.*;
+public class greatest_of_two_numbers
+{
+	public static void main(String[] args)
+	{
+		//scanner class declaration
+		Scanner sc = new Scanner(System.in);
+		//input first number		
+		System.out.print("Enter the first number : ");				
+		int num1 = sc.nextInt();
+		//input second number
+		System.out.print("Enter the second number : ");				
+		int num2 = sc.nextInt();
+		//conditions
+		if(first > second)											
+			System.out.println(num1+" is greater than "+second);
+		else if(num2 > num1)
+			System.out.println(num2+" is greater than "+first);
+		sc.close();													
+	}
+}
