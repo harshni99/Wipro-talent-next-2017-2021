@@ -1,11 +1,9 @@
-import util.*;
+import java.util.*;
 public Class SumEvenOdd{
       public ststic void main(String args[]){
             Scanner sc = new Scanner(System.in);
-            //getting first number
             System.out.print("Enter first number: ");
             int num1 = sc.nextInt();
-            //getting second number
             System.out.println("Enter second number: ");
             int num2 = sc.nextInt();
             int sum;
