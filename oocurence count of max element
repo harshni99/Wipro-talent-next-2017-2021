@@ -29,6 +29,6 @@ public class CountOccurrence
                 count++;
             }
         }
-        System.out.println("Number of Occurrence of the Element:"+n);
+        System.out.println("Number of Occurrence of the Element:"+count);
     }
 }
