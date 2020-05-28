@@ -1,5 +1,5 @@
 import java.util.*;
-public class greatest_of_two_numbers
+public class Biggest
 {
 	public static void main(String[] args)
 	{
