@@ -1,0 +1,14 @@
+import java.util.*;
+public class PrintingEvenNumbers
+{
+	public static void main(String[] args) {
+		System.out.println("Printing even numbers between 23 and 57");
+		for(int i = 23; i <= 57; i++)
+        {
+            if(i%2==0)
+            {
+                System.out.println(i);
+            }
+        }
+	}
+}
