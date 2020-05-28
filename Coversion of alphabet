@@ -1,0 +1,17 @@
+import java.util.*;
+public class AlphabetConversion
+{
+	public static void main(String[] args) {
+		System.out.println("enter the uppercase alphabet:");
+		Scanner sc=new Scanner(System.in);
+		String capital=sc.nextLine();
+		String lower=capital.toLowerCase();
+		System.out.println("enter the lowercase alphabet:");
+		String small=sc.nextLine();
+		String upper=small.toUpperCase();
+		System.out.println("After conversion");
+		System.out.println(capital+"->"+lower);
+		System.out.println(small+"->"+upper);
+		
+	}
+}
