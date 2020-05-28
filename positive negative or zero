@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PositiveOrNegative {
+public class PositiveNegativeOrZero {
    public static void main(String args[]){
       int num;
       System.out.println("Enter a number ::");
@@ -12,7 +12,8 @@ public class PositiveOrNegative {
       } else if(num < 0){
          System.out.println("Given number is a negative integer");
       } else {
-         System.out.println("Given number is neither positive nor negative integer");
+         System.out.println("Given number is zero");
       }
+      ob.close();
    }
 }
