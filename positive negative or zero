@@ -3,7 +3,7 @@ import java.util.*;
 public class PositiveNegativeOrZero {
    public static void main(String args[]){
       int num;
-      System.out.println("Enter a number ::");
+      System.out.println("Enter a number:");
       Scanner ob = new Scanner(System.in);
       num = ob.nextInt();
 
