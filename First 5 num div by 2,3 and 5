@@ -1,0 +1,18 @@
+import java.util.*;
+public class TwoThreeFiveDivisible
+{
+	public static void main(String[] args) {
+		System.out.println("First 5 numbers divisible by 2, 3 and 5 are :");
+		int i=1;
+		int test=2*3*5;
+		while(i<=test*5)
+		{
+		    if(i%2 == 0 && i%5 == 0 && i%3 == 0)
+		    {
+		        System.out.println(i);
+		    }
+		    i++;
+		}
+		
+	}
+}
