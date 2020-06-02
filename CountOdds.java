@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class UserMainCode
+public class CountOdds
 {
 
     public int countOdds(int input1,int input2,int input3,int input4,int input5)
