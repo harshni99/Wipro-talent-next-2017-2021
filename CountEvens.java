@@ -4,7 +4,7 @@ import java.util.*;
 public class UserMainCode
 {
 
-    public int countEvents(int input1,int input2,int input3,int input4,int input5)
+    public int countEvens(int input1,int input2,int input3,int input4,int input5)
     {
           int count=0;
           if(input1%2==0)
