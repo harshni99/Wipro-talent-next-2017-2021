@@ -5,7 +5,7 @@ public class SumOfAllDigitsInN
 {
     public int digitSum(int input1)
     {
-        int sum=0,rem=0,sum1=0;
+        int sum=0,rem=0,sum1=0,rem1;
         if(input1>0)
         {
           while(input1!=0)
