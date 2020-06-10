@@ -10,7 +10,8 @@ public class PalindromeString
         string str="";
         for(int i=len;i>=0;i--)
         {
-            str=str+s.charAt(i);
+            char ch=input1.charAt(i);
+            str=str+ch;
         }
         if(str==s)
           ans=2;
